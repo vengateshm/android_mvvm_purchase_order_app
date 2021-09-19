@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuOrders"
+        android:icon="@drawable/ic_round_list_24"
+        android:title="@string/orders" />
+    <item
+        android:id="@+id/mnuMore"
+        android:icon="@drawable/ic_round_more_horiz_24"
+        android:title="@string/more" />
+</menu>

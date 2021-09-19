@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Purchase Order</string>
+    <string name="orders">Orders</string>
+    <string name="more">More</string>
+    <string name="create_order">Create Order</string>
+    <string name="select_product">Select Product</string>
+    <string name="select_quantity">Select Quantity</string>
+    <string name="view_products">View Products</string>
+    <string name="max_qty_limit">Max Quantity Limit</string>
+    <string name="product_list">Product List</string>
+    <string name="no_products_available">No Products available</string>
+    <string name="add_product">Add Product</string>
+    <string name="product_name">Name</string>
+    <string name="product_price">Price</string>
+    <string name="dialog_add">Add</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_close">Close</string>
+    <string name="product_name_max_chars">Max 25 chars allowed!</string>
+    <string name="cd_delete_product">Delete Product</string>
+    <string name="max_quantity">Quantity</string>
+    <string name="add_to_order">Add to Order</string>
+    <string name="ok">OK</string>
+    <string name="add_products_to_create_order">Add Products to create order</string>
+    <string name="no_orders_created">No Orders created</string>
+    <string name="order">Order</string>
+    <string name="dialog_share">Share</string>
+    <string name="quantity">QTY</string>
+    <string name="name">NAME</string>
+    <string name="amount">AMT</string>
+    <string name="failed_to_save_order_image">Failed to save order image</string>
+    <string name="send_to">Send To</string>
+    <string name="storage_permissions_denied">Storage permissions denied</string>
+    <!--Error-->
+    <string name="err_field_required">Field Required!</string>
+    <string name="err_price_zero">Price must be non zero</string>
+    <string name="err_quantity_range">Quantity must be 1 – 1000</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="update_product">Update Product</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="dialog_update">Update</string>
+    <string name="dialog_delete_produt_msg">Are you sure you want to delete this product?</string>
+    <string name="err_failed_to_load_data">Failed to load data</string>
+
+    <!--App shortcuts since API 25-->
+    <string name="create_order_short_label">Create Order</string>
+    <string name="create_order_long_label">Create Order</string>
+    <string name="create_order_disabled_message">Order create disabled</string>
+    <string name="add_view_product_short_label">Add/View product</string>
+    <string name="add_view_product_long_label">Add/View product</string>
+    <string name="add_view_product_disabled_message">Add/View product disabled</string>
+    <string name="view_orders_short_label">View Orders</string>
+    <string name="view_orders_long_label">View Orders</string>
+    <string name="view_orders_disabled_message">View orders disabled</string>
+</resources>

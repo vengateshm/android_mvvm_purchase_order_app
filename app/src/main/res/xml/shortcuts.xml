@@ -1,0 +1,41 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Create Order-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_create_order_color_secondary"
+        android:shortcutDisabledMessage="@string/create_order_disabled_message"
+        android:shortcutId="createOrder"
+        android:shortcutLongLabel="@string/create_order_long_label"
+        android:shortcutShortLabel="@string/create_order_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.android.purchaseorder.presentation.activities.CreateOrderActivity"
+            android:targetPackage="com.android.purchaseorder" />
+    </shortcut>
+    <!--View / Add Products-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_add_product_secondary_color"
+        android:shortcutDisabledMessage="@string/add_view_product_disabled_message"
+        android:shortcutId="addViewProduct"
+        android:shortcutLongLabel="@string/add_view_product_long_label"
+        android:shortcutShortLabel="@string/add_view_product_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.android.purchaseorder.presentation.activities.ProductListActivity"
+            android:targetPackage="com.android.purchaseorder" />
+    </shortcut>
+    <!--View Orders-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_round_list_24"
+        android:shortcutDisabledMessage="@string/view_orders_disabled_message"
+        android:shortcutId="viewOrders"
+        android:shortcutLongLabel="@string/view_orders_long_label"
+        android:shortcutShortLabel="@string/view_orders_short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.android.purchaseorder.presentation.activities.MainActivity"
+            android:targetPackage="com.android.purchaseorder" />
+    </shortcut>
+</shortcuts>
