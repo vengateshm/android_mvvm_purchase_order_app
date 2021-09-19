@@ -1,5 +1,5 @@
 # Android MVVM Purchase Order app
-This is a simple purchase order app built using modern android development APIs and framework. This app uses Room database to store products, order information.
+This is a simple purchase order app built using modern android development APIs and framework. This app uses Room database to store products, order information. The order summary can be saved as image and an in app sharing option (Share sheet) also available.
 
 **Architecture**
 
